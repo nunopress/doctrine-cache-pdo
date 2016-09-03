@@ -181,7 +181,7 @@ class PDOCache extends CacheProvider
 
         $statement->execute();
 
-        $item = $statement->fetchAll(\PDO::FETCH_ASSOC);
+        $item = $statement->fetch(\PDO::FETCH_ASSOC);
 
         if ($item === false) {
             return null;
