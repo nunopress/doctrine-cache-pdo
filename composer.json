@@ -1,0 +1,31 @@
+{
+    "name": "nunopress/doctrine-cache-pdo",
+    "description": "Doctrine Cache PDO Driver",
+    "license": "MIT",
+    "homepage": "http://nunopress.com",
+    "support": {
+        "issues": "https://github.com/nunopress/doctrine-cache-pdo/issues",
+        "source": "https://github.com/nunopress/doctrine-cache-pdo"
+    },
+    "authors": [
+        {
+            "name": "NunoPress LLC",
+            "email": "hello@nunopress.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "doctrine/cache": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "NunoPress\\Doctrine\\Common\\Cache\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
